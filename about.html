@@ -84,6 +84,7 @@
 
     .text-col {
       flex: 1;
+      padding-top: 2px;
     }
 
     .name {
@@ -91,7 +92,6 @@
       font-weight: 700;
       color: #2c1f0e;
       margin-bottom: 10px;
-      line-height: 1.4;
     }
 
     .name span {
@@ -102,8 +102,15 @@
       font-size: 13px;
       color: #4a3a2a;
       line-height: 1.85;
-      margin-bottom: 18px;
+      margin-bottom: 14px;
       text-align: justify;
+    }
+
+    .aka {
+      font-size: 12px;
+      color: #9a8a74;
+      font-style: italic;
+      margin-bottom: 14px;
     }
 
     .contact {
@@ -123,9 +130,8 @@
 
     .links {
       display: flex;
-      gap: 0;
-      flex-wrap: wrap;
       align-items: center;
+      flex-wrap: wrap;
     }
 
     .links a {
@@ -153,7 +159,6 @@
       letter-spacing: 0.05em;
     }
 
-    /* Mobile */
     @media (max-width: 600px) {
       nav {
         padding: 20px 24px;
@@ -165,7 +170,6 @@
 
       main {
         padding: 32px 24px 48px;
-        align-items: flex-start;
       }
 
       .about-card {
@@ -199,13 +203,13 @@
     <div class="about-card">
 
       <div class="photo-col">
-        <img src="photo.png" alt="Due Wattana">
+        <img src="about-profile.png" alt="Due Wattana">
       </div>
 
       <div class="text-col">
         <div class="name">Due Wattana Songpetchmongkol <span>(b. 1996, Bangkok)</span></div>
         <p class="bio">is an urban researcher and creative designer who studies the dynamic relationship triad of pedestrians, walking and the city. His interest focuses on walking, street life, urban informality, global binary, the underlying urban fabrics in contemporary cities, and its 'urban drama'. He is interested in how people, goods and information move (around) the city.</p>
-        <p class="bio" style="margin-bottom: 18px; font-style: italic; font-size: 12px; color: #9a8a74;">published as Wattana Songpetchmongkol</p>
+        <p class="aka">published as Wattana Songpetchmongkol</p>
         <div class="contact">
           <a href="mailto:wattanasong@outlook.com">wattanasong@outlook.com</a>
         </div>
