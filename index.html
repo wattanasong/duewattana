@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Due Wattana</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #F5F0E8;
+      font-family: 'Georgia', serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 28px 40px;
+    }
+
+    .logo {
+      font-size: 22px;
+      color: #3a2e1e;
+      text-decoration: none;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 28px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 11px;
+      color: #7a6a54;
+      text-decoration: none;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .nav-links a:hover {
+      color: #2c1f0e;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px 20px 80px;
+    }
+
+    .pill {
+      display: inline-block;
+      background: #e8dece;
+      color: #7a6a54;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 10px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 4px 14px;
+      border-radius: 20px;
+      margin-bottom: 24px;
+    }
+
+    h1 {
+      font-size: 42px;
+      font-weight: 400;
+      color: #2c1f0e;
+      letter-spacing: -1px;
+      margin-bottom: 12px;
+    }
+
+    .cities {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 11px;
+      color: #8a7660;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      margin-bottom: 40px;
+    }
+
+    .divider {
+      width: 32px;
+      height: 1px;
+      background: #c9b99a;
+      margin: 0 auto 40px;
+    }
+
+    .page-links {
+      display: flex;
+      gap: 32px;
+      list-style: none;
+    }
+
+    .page-links a {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 11px;
+      color: #7a6a54;
+      text-decoration: none;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      border-bottom: 0.5px solid #c9b99a;
+      padding-bottom: 2px;
+    }
+
+    .page-links a:hover {
+      color: #2c1f0e;
+      border-bottom-color: #2c1f0e;
+    }
+
+    footer {
+      padding: 20px 40px;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 11px;
+      color: #b0a090;
+      text-align: center;
+      letter-spacing: 0.05em;
+    }
+
+    /* Mobile */
+    @media (max-width: 600px) {
+      nav {
+        padding: 20px 24px;
+      }
+
+      .nav-links {
+        gap: 20px;
+      }
+
+      h1 {
+        font-size: 32px;
+      }
+
+      .page-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a class="logo" href="index.html">W.</a>
+    <ul class="nav-links">
+      <li><a href="research.html">Research</a></li>
+      <li><a href="design.html">Design</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="pill">Urban researcher · Creative designer</div>
+    <h1>Due Wattana</h1>
+    <p class="cities">Bangkok · Glasgow · London</p>
+    <div class="divider"></div>
+    <ul class="page-links">
+      <li><a href="research.html">Research</a></li>
+      <li><a href="design.html">Design</a></li>
+      <li><a href="https://www.instagram.com/studio.wattana" target="_blank">Instagram</a></li>
+      <li><a href="https://scholar.google.com" target="_blank">Scholar</a></li>
+    </ul>
+  </main>
+
+  <footer>duewattana.com · wattanasong@outlook.com</footer>
+
+</body>
+</html>
